@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*css初始化*/
+html, body, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*清除输入框外边框及选中时的边框*/
+fieldset, img, input, button {
+    border: none;
+    outline-style: none;
+}
+
+/*清除列表前面的点或者数字*/
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "simsun", "宋体";
+}
+
+/*纵向居中*/
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*清除文本框伸缩功能*/
+textarea {
+    resize: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*合并表格边框*/
+table {
+    border-collapse: collapse;
+}
+
+i, s, em, b {
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    font: 12px/150% microsoft yahei;
+    color: #666;
+    background: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #C1121D;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.banxin {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tep-col {
+    color: #C1121D;
+}
+
+/*css初始化结束*/

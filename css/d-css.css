@@ -1,0 +1,433 @@
+/*鼠标移动出现3d效果*/
+.d-fc-left:hover, .d-fcter-left img:hover, .d-fcter-right li:hover {
+    transform: translate3d(0px, -2px, 0px);
+}
+
+/*一楼男鞋css start*/
+.d-common-floor {
+    margin-top: 20px;
+}
+
+/*设置floor-tie属性*/
+.d-floor-tie {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #111;
+    background-color: #111;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.d-floor-tie h2 {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.d-floor-tie h2 em {
+    font-style: normal;
+    font-weight: normal;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.d-floor-tie h2 a {
+    color: #fff;
+    font-weight: normal;
+
+}
+
+.d-floor-tie h2 a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.d-floor-tie ul li {
+    float: left;
+    color: #fff;
+    padding: 0 15px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.d-floor-tie ul .current {
+    color: #d2050a;
+    border-bottom: 2px solid #c1121d;
+}
+
+/*设置d-fc-left的css属性*/
+
+.d-fc-left .d-fcl-top {
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #111111;
+}
+
+.d-fc-left .d-fcl-top a {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.d-fc-left .d-fcl-top .d-fcl-top-a {
+    padding-left: 18px;
+    border-left: 1px solid #fff;
+}
+
+.d-fc-left-img {
+    width: 130px;
+    height: 130px;
+    margin: 20px 15px 0;
+    border-radius: 50%;
+}
+
+.d-fclbt-words {
+    width: 130px;
+    height: 130px;
+    padding: 20px 0;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.d-fclbt-words li {
+    float: left;
+    width: 50%;
+    font: normal bold 14px/25px "微软雅黑";
+}
+
+.d-fclf-img {
+    height: 150px;
+    width: 160px;
+}
+
+/*内部图片css*/
+.d-fc-center {
+    width: 1039px;
+    height: auto;
+}
+
+.d-fcter-left {
+    width: 510px;
+    height: 100%;
+    margin-left: 9px;
+}
+
+.d-fcter-left-img {
+    margin-top: 10px;
+}
+
+.d-fcter-left-imges,
+.d-fcter-right li {
+    position: relative;
+    background-color: #fff;
+    float: left;
+    width: 250px;
+    height: 170px;
+    margin: 0 0 10px 9px;
+    overflow: hidden;
+}
+
+.d-fcter-left-imges {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.d-fcter-left-imges img,
+.d-fcter-right li img {
+    height: 100%;
+    float: left;
+    margin: -20px 0 0 40px;
+}
+
+.d-fcter-left-imges .text,
+.d-fcter-right li .text {
+    position: absolute;
+    top: 138px;
+    left: 75px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #5C5C5C;
+}
+
+.d-fcter-right li .text1 {
+    position: absolute;
+    top: 270px;
+    left: 75px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: rgb(92, 92, 92);
+}
+
+.d-fcter-right li .lists {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    margin-left: 0px;
+}
+
+/*一楼男鞋css end*/
+/*层楼电梯css start*/
+.lift {
+    position: fixed;
+    left: 0;
+    top: 140px;
+}
+
+.lift ul li {
+    cursor: pointer;
+    height: 30px;
+    margin-top: -1px;
+    overflow: hidden;
+    text-align: center;
+    width: 80px;
+    border-bottom: 1px dashed #ddd;
+    padding: 5px 0;
+    font: 13px/30px "宋体";
+}
+
+.lift ul li i {
+    display: inline-block;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: #656565;
+    border-radius: 50%;
+    color: #eee;
+    line-height: 20px;
+    text-align: center;
+}
+
+.lift ul .clor {
+    color: #c40000;
+}
+
+.lift ul li .iclor {
+    background-color: #c40000;
+
+}
+
+/*层楼电梯css end*/
+/*侧边购物车start*/
+.allright-shop {
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 34px;
+    z-index: 1000;
+    background-color: black;
+}
+
+.allright-shop .allright-tep {
+    margin: 40px 0 25px;
+    padding: 39px 0 0;
+    display: block;
+}
+
+.allright-shop .alltep-sub {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.allright-shop .alltep-sub em {
+    background: url(../images/index-nav.png) no-repeat;
+    background-position: 0px -240px;
+    top: 6px;
+    position: absolute;
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+.allright-shop .alltep-sub i {
+    display: block;
+    width: 100%;
+    height: 28px;
+    background: url(../images/index-nav.png) no-repeat;
+
+}
+
+/*购物车*/
+.subbcar a {
+    display: block;
+    height: 101px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+}
+
+.subbcar a em {
+    background: url(../images/index-nav.png) no-repeat;
+    background-position: 0px -240px;
+    top: 6px;
+    position: absolute;
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+.subbcar a i {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: url(../images/index-nav.png) no-repeat 3px -48px;
+}
+
+.subbcar span {
+    color: #fff;
+    display: block;
+    line-height: 18px;
+    margin: 10px auto 3px;
+    text-align: center;
+    width: 20px;
+    font-weight: normal;
+}
+
+.subbcar a s {
+    background-color: #ff5000;
+    border-radius: 18px;
+    font-size: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-family: Verdana;
+    font-style: normal;
+    height: 18px;
+    line-height: 180%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 18px;
+}
+
+.subbox {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    text-align: right;
+    top: 0px;
+    left: -300px;
+}
+
+.subcarcenter {
+    height: 683px;
+    display: none;
+    min-height: 490px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: left;
+    width: 300px;
+}
+
+.subcarcenter .subtext {
+    font-size: 14px;
+    line-height: 40px;
+    font-family: "宋体";
+    background-color: rgb(225, 225, 225);
+}
+
+.subcarcenter a {
+    display: inline-block;
+    float: right;
+    color: #656565;
+    vertical-align: middle;
+    margin-top: -10px;
+    margin-right: 10px;
+    width: 35px;
+    text-align: right;
+}
+
+/*联系客服*/
+.allreihgt-kefu {
+    display: block;
+}
+
+.allreihgt-kefu .subbright {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.allright-kefu a {
+    display: block;
+    height: 101px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+}
+
+.allright-kefu em {
+    background: url(../images/index-nav.png) no-repeat;
+    background-position: 0px -240px;
+    top: 6px;
+    position: absolute;
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+.allright-kefu i {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: url(../images/index-nav.png) no-repeat 3px -89px;
+}
+
+.allright-kefu span {
+    color: #fff;
+    display:block;
+    line-height: 18px;
+    margin: 10px auto 3px;
+    text-align: center;
+    width: 20px;
+    font-weight: normal;
+}
+
+.allright-kefu .allri-kefu {
+    position: absolute;
+    left: -120px;
+    top: 300px;
+    display: none;
+}
+
+/*微信扫一扫*/
+.weixin {
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.weixin a {
+    background: url(../images/index-nav.png) no-repeat;
+    background-position: 0px -240px;
+    top: 6px;
+    position: absolute;
+    display: none;
+    width: 15px;
+    height: 15px;
+}
+
+.weixin i {
+    display: block;
+    width: 100%;
+    height: 28px;
+    background: url(../images/index-nav.png) no-repeat;
+    background-position: 3px -163px;
+}
+
+.weixin img {
+    position: absolute;
+    left: -280px;
+    top: -100px;
+    display: none;
+}
+
+/*侧边购物车end*/
